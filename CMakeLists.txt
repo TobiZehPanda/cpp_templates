@@ -2,8 +2,9 @@ cmake_minimum_required(VERSION 4.0.0)
 project(Hello)
 
 include(FetchContent)
-FetchContent_Declare(cxxopts
-  GIT_REPOSITORY https://github.com/TobiZehPanda/cpp_lib_personal
+FetchContent_Declare(cpp_lib_personal
+  GIT_REPOSITORY https://github.com/TobiZehPanda/cpp_lib_personal.git
+  GIT_TAG main
 )
 FetchContent_MakeAvailable(cpp_lib_personal)
 
